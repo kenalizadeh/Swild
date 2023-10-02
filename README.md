@@ -1,6 +1,7 @@
 # Swild
+**Concise builder for Swift.**
 
-[![CI Status](https://img.shields.io/travis/004230/Swild.svg?style=flat)](https://travis-ci.org/004230/Swild)
+[![CI Status](https://img.shields.io/travis/kenalizadeh/Swild.svg?style=flat)](https://travis-ci.org/kenalizadeh/Swild)
 [![Version](https://img.shields.io/cocoapods/v/Swild.svg?style=flat)](https://cocoapods.org/pods/Swild)
 [![License](https://img.shields.io/cocoapods/l/Swild.svg?style=flat)](https://cocoapods.org/pods/Swild)
 [![Platform](https://img.shields.io/cocoapods/p/Swild.svg?style=flat)](https://cocoapods.org/pods/Swild)
@@ -22,7 +23,7 @@ pod 'Swild'
 
 ## Author
 
-004230, 004230@ibar.int
+Kenan Alizadeh, kananalizadeh@gmail.com
 
 ## License
 
