@@ -1,6 +1,0 @@
-use_frameworks!
-target 'Swild_Tests' do
-  pod 'Swild', :path => '../'
-  
-  
-end
