@@ -10,7 +10,28 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Example
+
+```
+import UIKit
+import Swild
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var scrollView: UIScrollView!
+
+    let myView: UIView = .build { v in
+        v.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        v.backgroundColor = .systemBackground
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        self.view.addSubview(myView)
+    }
+}
+```
 
 ## Installation
 
