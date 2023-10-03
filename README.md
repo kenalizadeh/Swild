@@ -3,7 +3,7 @@
 
 ## Example
 
-```
+```swift
 import UIKit
 import Swild
 
