@@ -49,14 +49,14 @@ extension Buildable {
 
 extension NSObject: Buildable {
     
-    static func new() -> Self {
+    public static func new() -> Self {
         Self.init()
     }
 }
 
 extension Array: Buildable {
 
-    static func new() -> Self {
+    public static func new() -> Self {
         Self.init()
     }
 }
