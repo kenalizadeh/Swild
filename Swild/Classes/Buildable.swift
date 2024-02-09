@@ -32,7 +32,7 @@ public extension Mutable {
 }
 
 public protocol Buildable: Updatable, Mutable {
-    init()
+    static func new() -> Self
 }
 
 extension Buildable {
@@ -41,11 +41,22 @@ extension Buildable {
     /// - Throws: rethrows
     /// - Returns: updated object
     public static func build(_ block: (inout Self) throws -> Void) rethrows -> Self {
-        var instance = Self.init()
+        var instance = Self.new()
         try block(&instance)
         return instance
     }
 }
 
-extension NSObject: Buildable {}
-extension Array: Buildable {}
+extension NSObject: Buildable {
+    
+    static func new() -> Self {
+        Self.init()
+    }
+}
+
+extension Array: Buildable {
+
+    static func new() -> Self {
+        Self.init()
+    }
+}
